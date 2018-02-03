@@ -1,0 +1,1 @@
+export const API_ENDPOINT = 'https://tbm7zumrvd.execute-api.us-east-1.amazonaws.com/dev';

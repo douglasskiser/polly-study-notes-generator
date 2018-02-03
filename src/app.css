@@ -1,0 +1,5 @@
+@media (max-width: 540px) {
+    .app .card {
+        width: 100% !important;
+    }
+}

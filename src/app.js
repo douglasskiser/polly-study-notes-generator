@@ -11,7 +11,8 @@ export default class App extends Component {
 
   componentDidMount () {
     this.setState(() => ({loading: true}));
-    fetch(`${API_ENDPOINT}?postId=`, {
+    !process.env.NODE_ENV === 'test'
+    && fetch(`${API_ENDPOINT}?postId=`, {
       method: 'GET'
     }).then(response => response.json())
       .then(posts => this.setState(() => ({posts, loading: false})))

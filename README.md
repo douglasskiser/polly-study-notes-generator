@@ -4,7 +4,7 @@
 
 A React application to turn study notes from text into audio files using AWS Polly.
 
-##How do I get set up?
+## How do I get set up?
 
 - npm i
 - use environment variable API_ENDPOINT or add you endpoint directly in src/config.js
